@@ -42,4 +42,4 @@ During this analysis we are aiming to perform the below analysis
         ![Scores by school type](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/scores%20by%20school%20type.PNG)
 
 ## Summary:
- after replacing the Math and reading scores of Thomas High School, there was a very slight change, the difference is about 0.1% for overall passing scores.
+ after replacing the Math and reading scores of Thomas High School, there was a very slight change for school district performance, the difference is about 0.1% for overall passing scores.
