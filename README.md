@@ -14,10 +14,9 @@ During this analysis we are aiming to perform the below analysis
     - School performance based on the type of school
 ## Results: 
 - How is the district summary affected?
-    - there was a very slight change after removing the data of math and reading from Thomas HS, the difference is about 0.1% for overal passing scores 
-    as the total students that scores was changed to NaNs is about 1.1% of the total number of students. 
+    - there was a very slight change after removing the data of math and reading from Thomas HS, the difference is about 0.1% for overal passing scores. 
 Below is the table for district summary before we replace Thomas High School 9th graders data with NaNs. 
-![District Summary before ]()
+![District Summary before ](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/district_summary_before_NaNs.PNG)
 
 Below is the table for district summary after we replace Thomas High School 9th graders data with NaNs. 
 
