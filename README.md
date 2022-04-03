@@ -14,29 +14,32 @@ During this analysis we are aiming to perform the below analysis
     - School performance based on the type of school
 ## Results: 
 - How is the district summary affected?
-    - there was a very slight change after removing the data of math and reading from Thomas HS, the difference is about 0.1% for overal passing scores. 
-Below is the table for district summary before we replace Thomas High School 9th graders data with NaNs. 
-![District Summary before ](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/district_summary_before_NaNs.PNG)
+    - there was a very slight change after removing the data of math and reading from Thomas HS, the difference is about 0.1% for overall passing scores. 
+        Below is the table for district summary before we replace Thomas High School 9th graders data with NaNs. 
+        ![District Summary before ](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/district_summary_before_NaNs.PNG)
 
-Below is the table for district summary after we replace Thomas High School 9th graders data with NaNs. 
+        Below is the table for district summary after we replace Thomas High School 9th graders data with NaNs. 
 
-![District Summary after ](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/district_summary_with_NaNs.PNG)
-How is the school summary affected?
+        ![District Summary after ](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/district_summary_with_NaNs.PNG)
+        How is the school summary affected?
 
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+    - After replacing the ninth graders’ math and reading scores for Thomas High School, the perfromance was affected, the overall performance went from 90.94% to 65.07%
 
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-- Scores by school spending
-    - 
-![Scores by school spending](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/scores%20by%20school%20spending%20per%20student.PNG)
-- Scores by school size
-    - school size was not reduced, only scores was affected, see the image below
-![Scores by school size](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/scores%20by%20school%20size.PNG)
+- How does replacing the ninth-grade scores affect the following:
+    - Math and reading scores by grade
+    for Math and Reading the scores for Thomas High School after replacing the 9th grade scores it becomes NaNs, the rest of the scores did not change for every school. 
+    ![Math scores after]()
+    ![reading scores after]()
+    - Scores by school spending
+    Scores by school spending was not affected see the table below
+    ![Scores by school spending](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/scores%20by%20school%20spending%20per%20student.PNG)
+    - Scores by school size
+        - school size was not reduced, see the image below
+        ![Scores by school size](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/scores%20by%20school%20size.PNG)
 - Scores by school type
     - the schools performance by type was not overall affected even after modifying the nineth-grade scores for Thomas High school
-        -- explain well
-![Scores by school type](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/scores%20by%20school%20type.PNG)
+        ![Scores by school type](https://github.com/elzmanzi/School_District_Analysis/blob/main/Resources/scores%20by%20school%20type.PNG)
 
 ## Summary:
- Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+ after replacing the Math and reading scores of Thomas High School, there was a very slight change, the difference is about 0.1% for overall passing scores.
